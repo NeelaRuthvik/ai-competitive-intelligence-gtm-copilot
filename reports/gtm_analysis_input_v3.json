@@ -1,0 +1,942 @@
+{
+  "market": "Indian AI and ML education programmes",
+  "competitor_count": 6,
+  "unique_skill_count": 106,
+  "category_count": 13,
+  "competitors": [
+    {
+      "competitor_id": 6,
+      "competitor_name": "Emeritus",
+      "total_programmes": 4,
+      "unique_skills": 58,
+      "skill_categories": 11
+    },
+    {
+      "competitor_id": 5,
+      "competitor_name": "Coursera",
+      "total_programmes": 2,
+      "unique_skills": 28,
+      "skill_categories": 8
+    },
+    {
+      "competitor_id": 3,
+      "competitor_name": "Simplilearn",
+      "total_programmes": 1,
+      "unique_skills": 19,
+      "skill_categories": 6
+    },
+    {
+      "competitor_id": 2,
+      "competitor_name": "Great Learning",
+      "total_programmes": 1,
+      "unique_skills": 8,
+      "skill_categories": 4
+    },
+    {
+      "competitor_id": 4,
+      "competitor_name": "Scaler",
+      "total_programmes": 1,
+      "unique_skills": 8,
+      "skill_categories": 5
+    },
+    {
+      "competitor_id": 1,
+      "competitor_name": "upGrad",
+      "total_programmes": 1,
+      "unique_skills": 3,
+      "skill_categories": 3
+    }
+  ],
+  "top_skills": [
+    {
+      "canonical_skill": "Prompt Engineering",
+      "skill_category": "Generative AI",
+      "programme_count": 6,
+      "competitor_count": 5,
+      "coverage_percentage": 83.33,
+      "coverage_category": "High observed coverage"
+    },
+    {
+      "canonical_skill": "Retrieval-Augmented Generation",
+      "skill_category": "RAG",
+      "programme_count": 5,
+      "competitor_count": 4,
+      "coverage_percentage": 66.67,
+      "coverage_category": "High observed coverage"
+    },
+    {
+      "canonical_skill": "Agentic AI",
+      "skill_category": "Agentic AI",
+      "programme_count": 4,
+      "competitor_count": 3,
+      "coverage_percentage": 50.0,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "Generative AI",
+      "skill_category": "Generative AI",
+      "programme_count": 4,
+      "competitor_count": 3,
+      "coverage_percentage": 50.0,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "Large Language Models",
+      "skill_category": "Generative AI",
+      "programme_count": 3,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "Model Evaluation",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 3,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "Python Programming",
+      "skill_category": "Programming",
+      "programme_count": 3,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "AI Governance",
+      "skill_category": "AI Governance",
+      "programme_count": 2,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "Deep Learning",
+      "skill_category": "Deep Learning",
+      "programme_count": 2,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "LLM Application Development",
+      "skill_category": "Generative AI",
+      "programme_count": 2,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "Natural Language Processing",
+      "skill_category": "NLP",
+      "programme_count": 2,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33,
+      "coverage_category": "Moderate observed coverage"
+    },
+    {
+      "canonical_skill": "Fine Tuning",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 2,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage"
+    },
+    {
+      "canonical_skill": "Responsible AI",
+      "skill_category": "AI Governance",
+      "programme_count": 2,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage"
+    },
+    {
+      "canonical_skill": "AI Copilots",
+      "skill_category": "Generative AI",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage"
+    },
+    {
+      "canonical_skill": "AI Ethics and Transparency",
+      "skill_category": "AI Governance",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage"
+    }
+  ],
+  "categories": [
+    {
+      "skill_category": "Generative AI",
+      "unique_skills": 6,
+      "programme_count": 10,
+      "competitor_count": 6,
+      "coverage_percentage": 100.0
+    },
+    {
+      "skill_category": "Other / Requires Review",
+      "unique_skills": 47,
+      "programme_count": 9,
+      "competitor_count": 5,
+      "coverage_percentage": 83.33
+    },
+    {
+      "skill_category": "Agentic AI",
+      "unique_skills": 9,
+      "programme_count": 6,
+      "competitor_count": 4,
+      "coverage_percentage": 66.67
+    },
+    {
+      "skill_category": "RAG",
+      "unique_skills": 2,
+      "programme_count": 5,
+      "competitor_count": 4,
+      "coverage_percentage": 66.67
+    },
+    {
+      "skill_category": "AI Governance",
+      "unique_skills": 6,
+      "programme_count": 4,
+      "competitor_count": 3,
+      "coverage_percentage": 50.0
+    },
+    {
+      "skill_category": "Machine Learning",
+      "unique_skills": 7,
+      "programme_count": 6,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33
+    },
+    {
+      "skill_category": "Data Analytics",
+      "unique_skills": 7,
+      "programme_count": 4,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33
+    },
+    {
+      "skill_category": "Programming",
+      "unique_skills": 2,
+      "programme_count": 4,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33
+    },
+    {
+      "skill_category": "Deep Learning",
+      "unique_skills": 4,
+      "programme_count": 3,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33
+    },
+    {
+      "skill_category": "Mathematical Foundations",
+      "unique_skills": 3,
+      "programme_count": 2,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33
+    },
+    {
+      "skill_category": "AI Engineering",
+      "unique_skills": 7,
+      "programme_count": 2,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33
+    },
+    {
+      "skill_category": "NLP",
+      "unique_skills": 5,
+      "programme_count": 2,
+      "competitor_count": 2,
+      "coverage_percentage": 33.33
+    },
+    {
+      "skill_category": "Business Analytics",
+      "unique_skills": 1,
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67
+    }
+  ],
+  "potential_low_coverage_skills": [
+    {
+      "canonical_skill": "AI Copilots",
+      "skill_category": "Generative AI",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "AI Ethics and Transparency",
+      "skill_category": "AI Governance",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "AI Security",
+      "skill_category": "AI Governance",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "AI Workflow Design",
+      "skill_category": "Agentic AI",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Agent Orchestration",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Agentic AI Engineering",
+      "skill_category": "Agentic AI",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Agentic AI Frameworks",
+      "skill_category": "Agentic AI",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Ahp",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Ai Evaluation And Testing",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Ai Workflows",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Application Deployment",
+      "skill_category": "AI Engineering",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Application Design",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Artificial Intelligence",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Auto Regressive Integrated Moving Average Models",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Automation",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Autonomous AI Systems",
+      "skill_category": "Agentic AI",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Business Analytics",
+      "skill_category": "Business Analytics",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Cloud Deployment",
+      "skill_category": "AI Engineering",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Clustering",
+      "skill_category": "Machine Learning",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Compliance and Security",
+      "skill_category": "AI Governance",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Computer Vision Skills",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Convolutional Neural Networks",
+      "skill_category": "Deep Learning",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Core Data Foundations",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Core Ml Coding (Applied Ai-Ml)",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Dashboard Design",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Data Analysis With Python: From Raw Data To Insights",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Data Preprocessing",
+      "skill_category": "Data Analytics",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Data Science",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Data Visualization",
+      "skill_category": "Data Analytics",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    },
+    {
+      "canonical_skill": "Deep Learning And Neural Network Proficiency",
+      "skill_category": "Other / Requires Review",
+      "programme_count": 1,
+      "competitor_count": 1,
+      "coverage_percentage": 16.67,
+      "coverage_category": "Low observed coverage",
+      "opportunity_status": "Potential differentiation opportunity",
+      "validation_status": "Requires learner and employer demand validation",
+      "observed_competitor_count": 1
+    }
+  ],
+  "skill_competitors": {
+    "AI Copilots": [
+      "Simplilearn"
+    ],
+    "AI Ethics and Transparency": [
+      "Simplilearn"
+    ],
+    "AI Governance": [
+      "Great Learning",
+      "Simplilearn"
+    ],
+    "AI Security": [
+      "Coursera"
+    ],
+    "AI Workflow Design": [
+      "Simplilearn"
+    ],
+    "Agent Orchestration": [
+      "Simplilearn"
+    ],
+    "Agentic AI": [
+      "Great Learning",
+      "Coursera",
+      "Emeritus"
+    ],
+    "Agentic AI Engineering": [
+      "Emeritus"
+    ],
+    "Agentic AI Frameworks": [
+      "Simplilearn"
+    ],
+    "Ahp": [
+      "Emeritus"
+    ],
+    "Ai Evaluation And Testing": [
+      "Great Learning"
+    ],
+    "Ai Workflows": [
+      "Great Learning"
+    ],
+    "Application Deployment": [
+      "Coursera"
+    ],
+    "Application Design": [
+      "Coursera"
+    ],
+    "Artificial Intelligence": [
+      "Emeritus"
+    ],
+    "Auto Regressive Integrated Moving Average Models": [
+      "Emeritus"
+    ],
+    "Automation": [
+      "Scaler"
+    ],
+    "Autonomous AI Systems": [
+      "Simplilearn"
+    ],
+    "Business Analytics": [
+      "Emeritus"
+    ],
+    "Cloud Deployment": [
+      "Coursera"
+    ],
+    "Clustering": [
+      "Emeritus"
+    ],
+    "Compliance and Security": [
+      "Simplilearn"
+    ],
+    "Computer Vision Skills": [
+      "Emeritus"
+    ],
+    "Convolutional Neural Networks": [
+      "Emeritus"
+    ],
+    "Core Data Foundations": [
+      "Scaler"
+    ],
+    "Core Ml Coding (Applied Ai-Ml)": [
+      "Scaler"
+    ],
+    "Dashboard Design": [
+      "Emeritus"
+    ],
+    "Data Analysis With Python: From Raw Data To Insights": [
+      "Coursera"
+    ],
+    "Data Preprocessing": [
+      "Coursera"
+    ],
+    "Data Science": [
+      "Emeritus"
+    ],
+    "Data Visualization": [
+      "Emeritus"
+    ],
+    "Deep Learning": [
+      "upGrad",
+      "Emeritus"
+    ],
+    "Deep Learning And Neural Network Proficiency": [
+      "Emeritus"
+    ],
+    "Dematel": [
+      "Emeritus"
+    ],
+    "Emotion Analysis": [
+      "Emeritus"
+    ],
+    "Enterprise Compliance": [
+      "Simplilearn"
+    ],
+    "Evaluation and Monitoring": [
+      "Simplilearn"
+    ],
+    "Event-Driven Programming": [
+      "Coursera"
+    ],
+    "Excel Solver": [
+      "Emeritus"
+    ],
+    "Execution": [
+      "Emeritus"
+    ],
+    "Exploratory Data Analysis": [
+      "Coursera"
+    ],
+    "Fine Tuning": [
+      "Coursera"
+    ],
+    "Genai In Search Ecosystems": [
+      "Emeritus"
+    ],
+    "Generative AI": [
+      "upGrad",
+      "Coursera",
+      "Emeritus"
+    ],
+    "Generative Ai Essentials: From Fundamentals To Real-World Applications": [
+      "Coursera"
+    ],
+    "Generative Ai-Powered Applications With Python": [
+      "Coursera"
+    ],
+    "Generative Model Architectures": [
+      "Coursera"
+    ],
+    "Goal Programming": [
+      "Emeritus"
+    ],
+    "Gradient Functions": [
+      "Emeritus"
+    ],
+    "Graph Assisted Rankings": [
+      "Emeritus"
+    ],
+    "Graph Theory": [
+      "Emeritus"
+    ],
+    "Intelligent Automation": [
+      "Simplilearn"
+    ],
+    "Ism": [
+      "Emeritus"
+    ],
+    "LLM Application Development": [
+      "Simplilearn",
+      "Coursera"
+    ],
+    "LLM Architecture": [
+      "Emeritus"
+    ],
+    "LLMOps": [
+      "Simplilearn"
+    ],
+    "Large Language Models": [
+      "Coursera",
+      "Emeritus"
+    ],
+    "Lda": [
+      "Emeritus"
+    ],
+    "Linear Programming": [
+      "Emeritus"
+    ],
+    "Long Short-Term Memory Networks": [
+      "Emeritus"
+    ],
+    "Lsa": [
+      "Emeritus"
+    ],
+    "Machine Learning": [
+      "Emeritus"
+    ],
+    "Machine Learning Model Implementation": [
+      "Emeritus"
+    ],
+    "Mathematics for Machine Learning": [
+      "Scaler"
+    ],
+    "Model Context Protocol": [
+      "Coursera"
+    ],
+    "Model Deployment": [
+      "Coursera"
+    ],
+    "Model Evaluation": [
+      "Coursera",
+      "Emeritus"
+    ],
+    "Model Selection": [
+      "Emeritus"
+    ],
+    "Model Training": [
+      "Coursera"
+    ],
+    "Multi-Agent Systems": [
+      "Simplilearn"
+    ],
+    "Multi-Criteria & Strategic Decision Making": [
+      "Emeritus"
+    ],
+    "Multi-Criteria Decision Making": [
+      "Emeritus"
+    ],
+    "Natural Language Processing": [
+      "upGrad",
+      "Emeritus"
+    ],
+    "Network Science": [
+      "Emeritus"
+    ],
+    "Nlp In Social Media Analytics": [
+      "Emeritus"
+    ],
+    "No-Code Apps": [
+      "Scaler"
+    ],
+    "No-Code Automation": [
+      "Great Learning"
+    ],
+    "Observability": [
+      "Simplilearn"
+    ],
+    "Planning": [
+      "Emeritus"
+    ],
+    "Predictive Analytics": [
+      "Emeritus"
+    ],
+    "Predictive Time Series Models": [
+      "Emeritus"
+    ],
+    "Prescriptive Analytics": [
+      "Emeritus"
+    ],
+    "Prompt Engineering": [
+      "Great Learning",
+      "Simplilearn",
+      "Scaler",
+      "Coursera",
+      "Emeritus"
+    ],
+    "Prompt Engineering For Generative Ai: Build Better Ai Prompts": [
+      "Coursera"
+    ],
+    "Python": [
+      "Emeritus"
+    ],
+    "Python Programming": [
+      "Scaler",
+      "Emeritus"
+    ],
+    "Reliability Testing": [
+      "Emeritus"
+    ],
+    "Responsible AI": [
+      "Coursera"
+    ],
+    "Retrieval-Augmented Generation": [
+      "Simplilearn",
+      "Scaler",
+      "Coursera",
+      "Emeritus"
+    ],
+    "Sensitivity Analysis": [
+      "Emeritus"
+    ],
+    "Sentiment Analysis": [
+      "Emeritus"
+    ],
+    "Statistical Analysis": [
+      "Emeritus"
+    ],
+    "Supervised Learning": [
+      "Coursera"
+    ],
+    "Tableau": [
+      "Emeritus"
+    ],
+    "Text Summarization": [
+      "Emeritus"
+    ],
+    "Time Series Analysis": [
+      "Emeritus"
+    ],
+    "Token Optimization": [
+      "Great Learning"
+    ],
+    "Tool Chaining": [
+      "Great Learning"
+    ],
+    "Tool Integration": [
+      "Simplilearn"
+    ],
+    "Topic Modeling": [
+      "Emeritus"
+    ],
+    "Topsis": [
+      "Emeritus"
+    ],
+    "Transformers": [
+      "Emeritus"
+    ],
+    "Unit Testing": [
+      "Coursera"
+    ],
+    "Unsupervised Learning": [
+      "Coursera"
+    ],
+    "User Interface (Ui) Design": [
+      "Coursera"
+    ],
+    "Vector Databases": [
+      "Simplilearn"
+    ]
+  },
+  "limitations": [
+    "The analysis covers only the collected programme sample, not every programme offered by each provider.",
+    "Extracted skills and their taxonomy classifications may contain errors.",
+    "Competitor coverage does not establish learner demand, employer demand, market share, or teaching quality.",
+    "Pricing and placement claims are not validated by these reports.",
+    "A skill appearing in few sampled programmes is a research lead, not proof of an unmet market need."
+  ]
+}

@@ -1,0 +1,107 @@
+canonical_skill,skill_category,programme_count,competitor_count,coverage_percentage,coverage_category
+Prompt Engineering,Generative AI,6,5,83.33,High observed coverage
+Retrieval-Augmented Generation,RAG,5,4,66.67,High observed coverage
+Agentic AI,Agentic AI,4,3,50.0,Moderate observed coverage
+Generative AI,Generative AI,4,3,50.0,Moderate observed coverage
+Large Language Models,Generative AI,3,2,33.33,Moderate observed coverage
+Model Evaluation,Other / Requires Review,3,2,33.33,Moderate observed coverage
+Python Programming,Programming,3,2,33.33,Moderate observed coverage
+AI Governance,AI Governance,2,2,33.33,Moderate observed coverage
+Deep Learning,Deep Learning,2,2,33.33,Moderate observed coverage
+LLM Application Development,Generative AI,2,2,33.33,Moderate observed coverage
+Natural Language Processing,NLP,2,2,33.33,Moderate observed coverage
+Fine Tuning,Other / Requires Review,2,1,16.67,Low observed coverage
+Responsible AI,AI Governance,2,1,16.67,Low observed coverage
+AI Copilots,Generative AI,1,1,16.67,Low observed coverage
+AI Ethics and Transparency,AI Governance,1,1,16.67,Low observed coverage
+AI Security,AI Governance,1,1,16.67,Low observed coverage
+AI Workflow Design,Agentic AI,1,1,16.67,Low observed coverage
+Agent Orchestration,Other / Requires Review,1,1,16.67,Low observed coverage
+Agentic AI Engineering,Agentic AI,1,1,16.67,Low observed coverage
+Agentic AI Frameworks,Agentic AI,1,1,16.67,Low observed coverage
+Ahp,Other / Requires Review,1,1,16.67,Low observed coverage
+Ai Evaluation And Testing,Other / Requires Review,1,1,16.67,Low observed coverage
+Ai Workflows,Other / Requires Review,1,1,16.67,Low observed coverage
+Application Deployment,AI Engineering,1,1,16.67,Low observed coverage
+Application Design,Other / Requires Review,1,1,16.67,Low observed coverage
+Artificial Intelligence,Other / Requires Review,1,1,16.67,Low observed coverage
+Auto Regressive Integrated Moving Average Models,Other / Requires Review,1,1,16.67,Low observed coverage
+Automation,Other / Requires Review,1,1,16.67,Low observed coverage
+Autonomous AI Systems,Agentic AI,1,1,16.67,Low observed coverage
+Business Analytics,Business Analytics,1,1,16.67,Low observed coverage
+Cloud Deployment,AI Engineering,1,1,16.67,Low observed coverage
+Clustering,Machine Learning,1,1,16.67,Low observed coverage
+Compliance and Security,AI Governance,1,1,16.67,Low observed coverage
+Computer Vision Skills,Other / Requires Review,1,1,16.67,Low observed coverage
+Convolutional Neural Networks,Deep Learning,1,1,16.67,Low observed coverage
+Core Data Foundations,Other / Requires Review,1,1,16.67,Low observed coverage
+Core Ml Coding (Applied Ai-Ml),Other / Requires Review,1,1,16.67,Low observed coverage
+Dashboard Design,Other / Requires Review,1,1,16.67,Low observed coverage
+Data Analysis With Python: From Raw Data To Insights,Other / Requires Review,1,1,16.67,Low observed coverage
+Data Preprocessing,Data Analytics,1,1,16.67,Low observed coverage
+Data Science,Other / Requires Review,1,1,16.67,Low observed coverage
+Data Visualization,Data Analytics,1,1,16.67,Low observed coverage
+Deep Learning And Neural Network Proficiency,Other / Requires Review,1,1,16.67,Low observed coverage
+Dematel,Other / Requires Review,1,1,16.67,Low observed coverage
+Emotion Analysis,NLP,1,1,16.67,Low observed coverage
+Enterprise Compliance,AI Governance,1,1,16.67,Low observed coverage
+Evaluation and Monitoring,AI Engineering,1,1,16.67,Low observed coverage
+Event-Driven Programming,Other / Requires Review,1,1,16.67,Low observed coverage
+Excel Solver,Other / Requires Review,1,1,16.67,Low observed coverage
+Execution,Other / Requires Review,1,1,16.67,Low observed coverage
+Exploratory Data Analysis,Data Analytics,1,1,16.67,Low observed coverage
+Genai In Search Ecosystems,Other / Requires Review,1,1,16.67,Low observed coverage
+Generative Ai Essentials: From Fundamentals To Real-World Applications,Other / Requires Review,1,1,16.67,Low observed coverage
+Generative Ai-Powered Applications With Python,Other / Requires Review,1,1,16.67,Low observed coverage
+Generative Model Architectures,Other / Requires Review,1,1,16.67,Low observed coverage
+Goal Programming,Other / Requires Review,1,1,16.67,Low observed coverage
+Gradient Functions,Other / Requires Review,1,1,16.67,Low observed coverage
+Graph Assisted Rankings,Other / Requires Review,1,1,16.67,Low observed coverage
+Graph Theory,Mathematical Foundations,1,1,16.67,Low observed coverage
+Intelligent Automation,AI Engineering,1,1,16.67,Low observed coverage
+Ism,Other / Requires Review,1,1,16.67,Low observed coverage
+LLM Architecture,Generative AI,1,1,16.67,Low observed coverage
+LLMOps,AI Engineering,1,1,16.67,Low observed coverage
+Lda,Other / Requires Review,1,1,16.67,Low observed coverage
+Linear Programming,Mathematical Foundations,1,1,16.67,Low observed coverage
+Long Short-Term Memory Networks,Deep Learning,1,1,16.67,Low observed coverage
+Lsa,Other / Requires Review,1,1,16.67,Low observed coverage
+Machine Learning,Machine Learning,1,1,16.67,Low observed coverage
+Machine Learning Model Implementation,Machine Learning,1,1,16.67,Low observed coverage
+Mathematics for Machine Learning,Mathematical Foundations,1,1,16.67,Low observed coverage
+Model Context Protocol,Agentic AI,1,1,16.67,Low observed coverage
+Model Deployment,AI Engineering,1,1,16.67,Low observed coverage
+Model Selection,Machine Learning,1,1,16.67,Low observed coverage
+Model Training,Machine Learning,1,1,16.67,Low observed coverage
+Multi-Agent Systems,Agentic AI,1,1,16.67,Low observed coverage
+Multi-Criteria & Strategic Decision Making,Other / Requires Review,1,1,16.67,Low observed coverage
+Multi-Criteria Decision Making,Other / Requires Review,1,1,16.67,Low observed coverage
+Network Science,Other / Requires Review,1,1,16.67,Low observed coverage
+Nlp In Social Media Analytics,Other / Requires Review,1,1,16.67,Low observed coverage
+No-Code Apps,Other / Requires Review,1,1,16.67,Low observed coverage
+No-Code Automation,Other / Requires Review,1,1,16.67,Low observed coverage
+Observability,AI Engineering,1,1,16.67,Low observed coverage
+Planning,Other / Requires Review,1,1,16.67,Low observed coverage
+Predictive Analytics,Data Analytics,1,1,16.67,Low observed coverage
+Predictive Time Series Models,Other / Requires Review,1,1,16.67,Low observed coverage
+Prescriptive Analytics,Other / Requires Review,1,1,16.67,Low observed coverage
+Prompt Engineering For Generative Ai: Build Better Ai Prompts,Other / Requires Review,1,1,16.67,Low observed coverage
+Python,Programming,1,1,16.67,Low observed coverage
+Reliability Testing,Other / Requires Review,1,1,16.67,Low observed coverage
+Sensitivity Analysis,Other / Requires Review,1,1,16.67,Low observed coverage
+Sentiment Analysis,NLP,1,1,16.67,Low observed coverage
+Statistical Analysis,Data Analytics,1,1,16.67,Low observed coverage
+Supervised Learning,Machine Learning,1,1,16.67,Low observed coverage
+Tableau,Data Analytics,1,1,16.67,Low observed coverage
+Text Summarization,NLP,1,1,16.67,Low observed coverage
+Time Series Analysis,Data Analytics,1,1,16.67,Low observed coverage
+Token Optimization,Other / Requires Review,1,1,16.67,Low observed coverage
+Tool Chaining,Agentic AI,1,1,16.67,Low observed coverage
+Tool Integration,Agentic AI,1,1,16.67,Low observed coverage
+Topic Modeling,NLP,1,1,16.67,Low observed coverage
+Topsis,Other / Requires Review,1,1,16.67,Low observed coverage
+Transformers,Deep Learning,1,1,16.67,Low observed coverage
+Unit Testing,Other / Requires Review,1,1,16.67,Low observed coverage
+Unsupervised Learning,Machine Learning,1,1,16.67,Low observed coverage
+User Interface (Ui) Design,Other / Requires Review,1,1,16.67,Low observed coverage
+Vector Databases,RAG,1,1,16.67,Low observed coverage

@@ -1,0 +1,14 @@
+skill_category,unique_skills,programme_count,competitor_count,coverage_percentage
+Generative AI,6,10,6,100.0
+Other / Requires Review,47,9,5,83.33
+RAG,2,5,4,66.67
+Agentic AI,9,6,4,66.67
+AI Governance,6,4,3,50.0
+Mathematical Foundations,3,2,2,33.33
+Data Analytics,7,4,2,33.33
+AI Engineering,7,2,2,33.33
+Deep Learning,4,3,2,33.33
+NLP,5,2,2,33.33
+Machine Learning,7,6,2,33.33
+Programming,2,4,2,33.33
+Business Analytics,1,1,1,16.67

@@ -1,0 +1,642 @@
+﻿
+from pathlib import Path
+import json
+import requests
+import pandas as pd
+
+
+# ==================================================
+# 1. PROJECT CONFIGURATION
+# ==================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+DATA_DIR = PROJECT_ROOT / "data" / "processed"
+
+REPORT_DIR = PROJECT_ROOT / "reports"
+
+OLLAMA_URL = "http://localhost:11434/api/generate"
+
+MODEL_NAME = "llama3.2"
+
+INPUT_FILES = {
+    "skill_coverage": DATA_DIR / "skill_market_coverage.csv",
+    "skill_gaps": DATA_DIR / "potential_skill_gaps.csv",
+    "competitor_breadth": DATA_DIR / "competitor_skill_breadth.csv",
+    "competitor_matrix": DATA_DIR / "competitor_skill_matrix.csv",
+    "category_coverage": DATA_DIR / "category_market_coverage.csv"
+}
+
+OUTPUT_FILE = REPORT_DIR / "gtm_recommendations_v2.md"
+
+AUDIT_FILE = REPORT_DIR / "gtm_analysis_input.json"
+
+
+# ==================================================
+# 2. LOAD MARKET INTELLIGENCE REPORTS
+# ==================================================
+
+def load_market_data():
+
+    print("\nLoading market intelligence reports...")
+
+    data = {}
+
+    for name, file_path in INPUT_FILES.items():
+
+        if not file_path.exists():
+            raise FileNotFoundError(
+                f"Required report not found: {file_path}"
+            )
+
+        df = read_report(file_path)
+
+        if df.empty:
+            raise ValueError(
+                f"The report is empty: {file_path}"
+            )
+
+        data[name] = df
+
+        print(
+            f"{name}: {len(df)} records loaded"
+        )
+
+    return data
+
+
+# ==================================================
+# 3. VALIDATE REPORT STRUCTURE
+# ==================================================
+
+def validate_market_data(data):
+
+    required_columns = {
+        "skill_coverage": [
+            "canonical_skill",
+            "skill_category",
+            "programme_count",
+            "competitor_count",
+            "coverage_percentage"
+        ],
+
+        "skill_gaps": [
+            "canonical_skill",
+            "skill_category",
+            "competitor_count",
+            "opportunity_status"
+        ],
+
+        "competitor_breadth": [
+            "competitor_id",
+            "competitor_name",
+            "total_programmes",
+            "unique_skills",
+            "skill_categories"
+        ],
+
+        "category_coverage": [
+            "skill_category",
+            "unique_skills",
+            "programme_count",
+            "competitor_count",
+            "coverage_percentage"
+        ]
+    }
+
+    for report_name, columns in required_columns.items():
+
+        missing = [
+            column
+            for column in columns
+            if column not in data[report_name].columns
+        ]
+
+        if missing:
+            raise ValueError(
+                f"{report_name} is missing columns: {missing}"
+            )
+
+    print("\nAll report structures validated.")
+
+
+# ==================================================
+# 4. PREPARE COMPETITOR BENCHMARKING
+# ==================================================
+
+def prepare_competitor_analysis(data):
+
+    breadth = data["competitor_breadth"].copy()
+
+    breadth = breadth.sort_values(
+        "unique_skills",
+        ascending=False
+    )
+
+    result = []
+
+    for _, row in breadth.iterrows():
+
+        result.append({
+            "competitor": row["competitor_name"],
+            "programmes": int(row["total_programmes"]),
+            "unique_skills": int(row["unique_skills"]),
+            "skill_categories": int(row["skill_categories"])
+        })
+
+    return result
+
+
+# ==================================================
+# 5. PREPARE SKILL INTELLIGENCE
+# ==================================================
+
+def prepare_skill_analysis(data):
+
+    coverage = data["skill_coverage"].copy()
+
+    coverage = coverage.sort_values(
+        ["competitor_count", "programme_count"],
+        ascending=[False, False]
+    )
+
+    gaps = data["skill_gaps"].copy()
+
+    return {
+        "top_skills": coverage.head(15).to_dict(
+            orient="records"
+        ),
+
+        "potential_opportunities": gaps.head(30).to_dict(
+            orient="records"
+        ),
+
+        "total_unique_skills": int(
+            coverage["canonical_skill"].nunique()
+        )
+    }
+
+
+# ==================================================
+# 6. PREPARE CATEGORY INTELLIGENCE
+# ==================================================
+
+def prepare_category_analysis(data):
+
+    categories = data["category_coverage"].copy()
+
+    categories = categories.sort_values(
+        "coverage_percentage",
+        ascending=False
+    )
+
+    return categories.to_dict(
+        orient="records"
+    )
+
+
+# ==================================================
+# 7. PREPARE COMPETITOR SKILL MATRIX
+# ==================================================
+
+
+def prepare_competitor_matrix(data):
+
+    matrix = data["competitor_matrix"].copy()
+
+    # The first column must contain actual skill names
+    skill_column = matrix.columns[0]
+
+    matrix = matrix.rename(
+        columns={skill_column: "canonical_skill"}
+    )
+
+    if pd.api.types.is_numeric_dtype(
+        matrix["canonical_skill"]
+    ):
+        raise ValueError(
+            "Competitor matrix contains numeric skill IDs "
+            "instead of canonical skill names. "
+            "Regenerate competitor_skill_matrix.csv."
+        )
+
+    return matrix.to_dict(orient="records")
+
+
+# ==================================================
+# 8. BUILD MARKET INTELLIGENCE SUMMARY
+# ==================================================
+
+def prepare_market_summary(data):
+
+    print("\nPreparing structured market intelligence...")
+
+    competitor_analysis = prepare_competitor_analysis(
+        data
+    )
+
+    skill_analysis = prepare_skill_analysis(
+        data
+    )
+
+    category_analysis = prepare_category_analysis(
+        data
+    )
+
+    competitor_matrix = prepare_competitor_matrix(
+        data
+    )
+
+    summary = {
+        "market": "Indian AI and ML education programmes",
+
+        "dataset_overview": {
+            "competitors": len(competitor_analysis),
+            "unique_skills": skill_analysis["total_unique_skills"],
+            "categories": len(category_analysis)
+        },
+
+        "competitor_benchmarking": competitor_analysis,
+
+        "skill_intelligence": skill_analysis,
+
+        "category_intelligence": category_analysis,
+
+    
+
+        "limitations": [
+            "Analysis represents only the collected programme sample.",
+            "Extracted skills may contain classification errors.",
+            "Competitor coverage does not establish learner demand.",
+            "The dataset does not establish market share.",
+            "Pricing and placement claims are not validated by these reports.",
+            "Category coverage measures whether competitors are represented in a category, not the depth or quality of their teaching."
+        ]
+    }
+
+    return summary
+
+
+# ==================================================
+# 9. CREATE AI PROMPT
+# ==================================================
+
+def create_prompt(market_summary):
+
+    summary_json = json.dumps(
+        market_summary,
+        indent=2,
+        ensure_ascii=False,
+        default=str
+    )
+
+    prompt = f"""
+You are a senior AI education market research analyst
+and Go-To-Market strategy consultant.
+
+Your task is to analyse competitor intelligence data
+for Indian AI and ML education programmes.
+
+Use the supplied dataset to prepare a practical,
+evidence-based GTM strategy for a hypothetical
+AI education provider.
+
+MARKET INTELLIGENCE DATA:
+
+{summary_json}
+
+
+REPORT STRUCTURE:
+
+1. EXECUTIVE SUMMARY
+
+Explain the competitive landscape and the most
+important findings from the collected dataset.
+
+
+2. COMPETITOR BENCHMARKING
+
+Compare all competitors using their actual company names.
+
+Discuss:
+- Number of sampled programmes.
+- Unique skill breadth.
+- Number of skill categories.
+- Observed areas of curriculum strength.
+
+Do not assume that the sampled programmes represent
+the entire catalogue of any competitor.
+
+
+3. SKILL AND CATEGORY MARKET ANALYSIS
+
+Analyse:
+- Most frequently represented skills.
+- Categories with high observed coverage.
+- Categories with low observed coverage.
+- Skills offered by only one competitor.
+- Differences between skill coverage and category coverage.
+
+Support important statements with actual figures
+from the supplied dataset.
+
+
+4. POTENTIAL PROGRAMME OPPORTUNITIES
+
+Identify promising curriculum areas worth investigating.
+
+For each opportunity explain:
+- Observed competitor coverage.
+- Number of programmes.
+- Relevant competitors, where supported by the matrix.
+- Why the area may deserve further investigation.
+- What additional evidence is needed.
+
+Do not claim that low coverage proves market demand.
+
+
+5. RECOMMENDED PROGRAMME DESIGN
+
+Recommend one practical AI/ML education programme.
+
+Include:
+- Programme positioning.
+- Target learning outcomes.
+- Curriculum modules.
+- Technical projects.
+- Practical assessments.
+- Potential differentiation.
+
+Connect the curriculum recommendations to observed
+skills in the dataset.
+
+Clearly label new curriculum suggestions as recommendations.
+
+
+6. LEARNER SEGMENTATION
+
+Analyse potential segments:
+
+- Fresh graduates.
+- Software developers.
+- Working professionals.
+- Corporate teams.
+
+For each segment explain:
+- Potential learning needs.
+- Relevant curriculum.
+- Possible value proposition.
+- Suitable delivery approach.
+
+Treat these as strategic hypotheses, not validated personas.
+
+
+7. PRICING STRATEGY
+
+The supplied reports do not contain verified pricing data.
+
+Therefore:
+- Do not invent competitor fees.
+- Propose a competitor pricing research framework.
+- Discuss pricing factors such as duration, format,
+  mentorship and project support.
+- Suggest how to test willingness to pay.
+
+
+8. GO-TO-MARKET STRATEGY
+
+Recommend:
+- Programme positioning.
+- Acquisition channels.
+- Content marketing.
+- Industry partnerships.
+- Pilot launch strategy.
+- Learner acquisition experiments.
+
+Explain why each recommendation may be suitable.
+
+
+9. MEASURABLE GTM KPIs
+
+Suggest measurable pilot KPIs, including:
+
+- Qualified leads.
+- Lead-to-enrolment conversion.
+- Cost per qualified lead.
+- Course completion rate.
+- Learner satisfaction.
+- Project completion rate.
+
+For each KPI explain how it should be measured.
+
+Do not invent performance benchmarks or claim
+that targets have already been achieved.
+
+
+10. RISKS AND VALIDATION
+
+Identify:
+- Dataset limitations.
+- Market demand assumptions.
+- Curriculum risks.
+- Competitive positioning risks.
+- Pricing uncertainty.
+
+Provide a validation plan before commercial launch.
+
+
+IMPORTANT INSTRUCTIONS:
+
+1. Use the actual company names in the dataset.
+2. Use actual counts and percentages.
+3. Do not invent statistics or market share.
+4. Do not invent competitor pricing.
+5. Distinguish facts from strategic hypotheses.
+6. Cite the relevant skill or category names
+   within the report as evidence.
+7. If evidence is insufficient, explicitly say so.
+8. Write in professional business language.
+9. Make recommendations specific and actionable.
+10. Avoid generic statements without explanation.
+
+Return a well-structured Markdown business report.
+Do not return an outline or template.
+
+Do not use placeholders such as:
+[list the top 5 skills]
+[number]
+[explain the positioning]
+
+You MUST fill every section using the supplied data.
+
+If the information is unavailable, write:
+"Data not available in the supplied dataset."
+
+Generate the complete report, not a suggested report structure.
+"""
+
+    return prompt
+
+
+# ==================================================
+# 10. GENERATE RECOMMENDATIONS USING OLLAMA
+# ==================================================
+
+def generate_recommendations(prompt):
+
+    print("\nConnecting to Ollama...")
+    print(f"Using model: {MODEL_NAME}")
+
+    payload = {
+        "model": MODEL_NAME,
+        "prompt": prompt,
+        "stream": False,
+        "options": {
+            "temperature": 0.2,
+            "num_ctx": 8192
+        }
+    }
+
+    try:
+
+        response = requests.post(
+            OLLAMA_URL,
+            json=payload,
+            timeout=900
+        )
+
+        response.raise_for_status()
+
+        result = response.json()
+
+        recommendation = result.get(
+            "response",
+            ""
+        ).strip()
+
+        if not recommendation:
+            raise ValueError(
+                "Ollama returned an empty response."
+            )
+
+        print("\nAI recommendations generated successfully.")
+
+        return recommendation
+
+    except requests.exceptions.ConnectionError as error:
+
+        raise RuntimeError(
+            "Could not connect to Ollama. "
+            "Check whether Ollama is running."
+        ) from error
+
+    except requests.exceptions.Timeout as error:
+
+        raise RuntimeError(
+            "Ollama request timed out. "
+            "Try reducing the amount of input data."
+        ) from error
+
+
+# ==================================================
+# 11. SAVE REPORT AND AUDIT DATA
+# ==================================================
+
+def save_report(recommendation, market_summary):
+
+    REPORT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        file.write(
+            "# AI/ML Education Market - GTM Strategy V2\n\n"
+        )
+
+        file.write(
+            "> AI-generated recommendations based on the "
+            "collected competitor intelligence dataset. "
+            "Validate assumptions before business decisions.\n\n"
+        )
+
+        file.write(recommendation)
+
+    with open(
+        AUDIT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            market_summary,
+            file,
+            indent=2,
+            ensure_ascii=False,
+            default=str
+        )
+
+    print("\nOUTPUT FILES SAVED")
+
+    print(OUTPUT_FILE)
+    print(AUDIT_FILE)
+
+
+# ==================================================
+# 12. MAIN EXECUTION
+# ==================================================
+
+def main():
+
+    print("=" * 65)
+    print("AI-POWERED GTM RECOMMENDATION ENGINE V2")
+    print("=" * 65)
+
+    # Step 1: Load reports
+    data = load_market_data()
+
+    # Step 2: Validate report structure
+    validate_market_data(data)
+
+    # Step 3: Prepare structured market summary
+    market_summary = prepare_market_summary(data)
+
+    # Step 4: Create prompt
+    prompt = create_prompt(market_summary)
+
+    # Step 5: Generate recommendations
+    recommendation = generate_recommendations(
+        prompt
+    )
+
+    # Step 6: Save report
+    save_report(
+        recommendation,
+        market_summary
+    )
+
+    print("\n" + "=" * 65)
+    print("GTM RECOMMENDATION ENGINE V2 COMPLETED")
+    print("=" * 65)
+
+
+
+def read_report(file_path):
+
+    df = pd.read_csv(file_path)
+
+    # Remove unwanted CSV index columns
+    df = df.loc[
+        :,
+        ~df.columns.astype(str).str.startswith("Unnamed:")
+    ]
+
+    return df
+
+if __name__ == "__main__":
+    main()

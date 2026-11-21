@@ -1,0 +1,143 @@
+competitor_id,program_id,program_name,standardized_skill
+1,1001,PG Programme in Machine Learning & AI (Executive),20+ Programming And Gen Ai Tools
+1,1001,PG Programme in Machine Learning & AI (Executive),deep learning
+1,1001,PG Programme in Machine Learning & AI (Executive),generative ai
+1,1001,PG Programme in Machine Learning & AI (Executive),natural language processing
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Ai Evaluation And Testing
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Ai Workflows
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,No-Code Automation
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Token Optimization
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Tool Chaining
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,agentic ai
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,ai governance
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,prompt engineering
+4,1004,AI & Machine Learning Course with Agentic AI,And Agents
+4,1004,AI & Machine Learning Course with Agentic AI,Applied Genai: Prompting
+4,1004,AI & Machine Learning Course with Agentic AI,Automation
+4,1004,AI & Machine Learning Course with Agentic AI,Core Ai Foundations (No Code)
+4,1004,AI & Machine Learning Course with Agentic AI,Core Data Foundations
+4,1004,AI & Machine Learning Course with Agentic AI,Core Ml Coding (Applied Ai-Ml)
+4,1004,AI & Machine Learning Course with Agentic AI,Core Python Programming Fundamentals
+4,1004,AI & Machine Learning Course with Agentic AI,Foundations Core Maths For Ml
+4,1004,AI & Machine Learning Course with Agentic AI,Math For Ml
+4,1004,AI & Machine Learning Course with Agentic AI,No-Code Apps
+4,1004,AI & Machine Learning Course with Agentic AI,Python Fluency For Data And Ml
+4,1004,AI & Machine Learning Course with Agentic AI,retrieval augmented generation
+6,1005,"Applied AI, ML & Decision Science Programme",Agentic Ai Models
+6,1005,"Applied AI, ML & Decision Science Programme",Ahp
+6,1005,"Applied AI, ML & Decision Science Programme",Auto Regressive Integrated Moving Average Models
+6,1005,"Applied AI, ML & Decision Science Programme",Clustering
+6,1005,"Applied AI, ML & Decision Science Programme",Convoluted Neural Networks
+6,1005,"Applied AI, ML & Decision Science Programme",Dematel
+6,1005,"Applied AI, ML & Decision Science Programme",Emotion Analysis
+6,1005,"Applied AI, ML & Decision Science Programme",Excel Solver
+6,1005,"Applied AI, ML & Decision Science Programme",Execution
+6,1005,"Applied AI, ML & Decision Science Programme",Genai In Search Ecosystems
+6,1005,"Applied AI, ML & Decision Science Programme",Goal Programming
+6,1005,"Applied AI, ML & Decision Science Programme",Gradient Functions
+6,1005,"Applied AI, ML & Decision Science Programme",Graph Assisted Rankings
+6,1005,"Applied AI, ML & Decision Science Programme",Graph Theory
+6,1005,"Applied AI, ML & Decision Science Programme",Ism
+6,1005,"Applied AI, ML & Decision Science Programme",Lda
+6,1005,"Applied AI, ML & Decision Science Programme",Linear Programming
+6,1005,"Applied AI, ML & Decision Science Programme",Lsa
+6,1005,"Applied AI, ML & Decision Science Programme",Lstm
+6,1005,"Applied AI, ML & Decision Science Programme",Multi-Criteria & Strategic Decision Making
+6,1005,"Applied AI, ML & Decision Science Programme",Multi-Criteria Decision Making
+6,1005,"Applied AI, ML & Decision Science Programme",Network Science
+6,1005,"Applied AI, ML & Decision Science Programme",Nlp In Social Media Analytics
+6,1005,"Applied AI, ML & Decision Science Programme",Planning
+6,1005,"Applied AI, ML & Decision Science Programme",Predictive Time Series Models
+6,1005,"Applied AI, ML & Decision Science Programme",Rag Workflows
+6,1005,"Applied AI, ML & Decision Science Programme",Sensitivity Analysis
+6,1005,"Applied AI, ML & Decision Science Programme",Sentiment Analysis
+6,1005,"Applied AI, ML & Decision Science Programme",Sentiment Mining
+6,1005,"Applied AI, ML & Decision Science Programme",Tableau
+6,1005,"Applied AI, ML & Decision Science Programme",Text Summarisation
+6,1005,"Applied AI, ML & Decision Science Programme",Time Series Analysis
+6,1005,"Applied AI, ML & Decision Science Programme",Topic Modeling
+6,1005,"Applied AI, ML & Decision Science Programme",Topic Modelling
+6,1005,"Applied AI, ML & Decision Science Programme",Topsis
+6,1005,"Applied AI, ML & Decision Science Programme",Transformers
+6,1005,"Applied AI, ML & Decision Science Programme",generative ai
+6,1005,"Applied AI, ML & Decision Science Programme",natural language processing
+6,1005,"Applied AI, ML & Decision Science Programme",python
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Computer Vision Skills
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Deep Learning And Neural Network Proficiency
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Generative Ai And Llms Expertise
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Hands-On Project Experience
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Machine Learning Model Implementation
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Prompt Engineering And Rag Systems
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Python Programming And Data Analysis
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Use Of Modern Ai Platforms And Tools
+6,1007,IIMK Data Science and Artificial Intelligence Course,Artificial Intelligence
+6,1007,IIMK Data Science and Artificial Intelligence Course,Business Analytics
+6,1007,IIMK Data Science and Artificial Intelligence Course,Dashboard Design
+6,1007,IIMK Data Science and Artificial Intelligence Course,Data Science
+6,1007,IIMK Data Science and Artificial Intelligence Course,Data Visualization
+6,1007,IIMK Data Science and Artificial Intelligence Course,Predictive Analytics
+6,1007,IIMK Data Science and Artificial Intelligence Course,Prescriptive Analytics
+6,1007,IIMK Data Science and Artificial Intelligence Course,Statistical Analysis
+6,1007,IIMK Data Science and Artificial Intelligence Course,agentic ai
+6,1007,IIMK Data Science and Artificial Intelligence Course,deep learning
+6,1007,IIMK Data Science and Artificial Intelligence Course,generative ai
+6,1007,IIMK Data Science and Artificial Intelligence Course,machine learning
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Agentic Ai Engineering
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Llm Architecture
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Model Selection
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Python For Ai Engineering
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Rag Systems Engineering
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Reliability Testing
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,model evaluation
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,prompt engineering
+5,1011,Generative AI Development with Hugging Face,Ai Security
+5,1011,Generative AI Development with Hugging Face,Application Deployment
+5,1011,Generative AI Development with Hugging Face,Application Design
+5,1011,Generative AI Development with Hugging Face,Cloud Deployment
+5,1011,Generative AI Development with Hugging Face,Data Preprocessing
+5,1011,Generative AI Development with Hugging Face,Event-Driven Programming
+5,1011,Generative AI Development with Hugging Face,Large Language Modeling
+5,1011,Generative AI Development with Hugging Face,Model Context Protocol
+5,1011,Generative AI Development with Hugging Face,Model Deployment
+5,1011,Generative AI Development with Hugging Face,Model Training
+5,1011,Generative AI Development with Hugging Face,User Interface (Ui) Design
+5,1011,Generative AI Development with Hugging Face,agentic ai
+5,1011,Generative AI Development with Hugging Face,fine tuning
+5,1011,Generative AI Development with Hugging Face,generative ai
+5,1011,Generative AI Development with Hugging Face,model evaluation
+5,1011,Generative AI Development with Hugging Face,responsible ai
+5,1012,IBM Generative AI Engineering Professional Certificate,Data Analysis With Python: From Raw Data To Insights
+5,1012,IBM Generative AI Engineering Professional Certificate,Exploratory Data Analysis
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Ai Essentials: From Fundamentals To Real-World Applications
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Ai Retrieval-Augmented Generation
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Ai-Powered Applications With Python
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Model Architectures
+5,1012,IBM Generative AI Engineering Professional Certificate,Large Language Modeling
+5,1012,IBM Generative AI Engineering Professional Certificate,Llm Application
+5,1012,IBM Generative AI Engineering Professional Certificate,Prompt Engineering For Generative Ai: Build Better Ai Prompts
+5,1012,IBM Generative AI Engineering Professional Certificate,Supervised Learning
+5,1012,IBM Generative AI Engineering Professional Certificate,Unit Testing
+5,1012,IBM Generative AI Engineering Professional Certificate,Unsupervised Learning
+5,1012,IBM Generative AI Engineering Professional Certificate,fine tuning
+5,1012,IBM Generative AI Engineering Professional Certificate,model evaluation
+5,1012,IBM Generative AI Engineering Professional Certificate,prompt engineering
+5,1012,IBM Generative AI Engineering Professional Certificate,responsible ai
+3,1013,Advanced Executive Program In Applied Generative AI,Agent Orchestration
+3,1013,Advanced Executive Program In Applied Generative AI,Agentic Ai Frameworks
+3,1013,Advanced Executive Program In Applied Generative AI,Ai Copilots
+3,1013,Advanced Executive Program In Applied Generative AI,Ai Workflow Design
+3,1013,Advanced Executive Program In Applied Generative AI,Autonomous Ai Systems
+3,1013,Advanced Executive Program In Applied Generative AI,Compliance And Security
+3,1013,Advanced Executive Program In Applied Generative AI,Enterprise Compliance
+3,1013,Advanced Executive Program In Applied Generative AI,Ethics And Transparency
+3,1013,Advanced Executive Program In Applied Generative AI,Evaluation And Monitoring
+3,1013,Advanced Executive Program In Applied Generative AI,Intelligent Automation
+3,1013,Advanced Executive Program In Applied Generative AI,Llm Application Development
+3,1013,Advanced Executive Program In Applied Generative AI,Llmops
+3,1013,Advanced Executive Program In Applied Generative AI,Multiagent Systems
+3,1013,Advanced Executive Program In Applied Generative AI,Observability
+3,1013,Advanced Executive Program In Applied Generative AI,Tool Integration
+3,1013,Advanced Executive Program In Applied Generative AI,Vector Databases
+3,1013,Advanced Executive Program In Applied Generative AI,ai governance
+3,1013,Advanced Executive Program In Applied Generative AI,prompt engineering
+3,1013,Advanced Executive Program In Applied Generative AI,retrieval augmented generation

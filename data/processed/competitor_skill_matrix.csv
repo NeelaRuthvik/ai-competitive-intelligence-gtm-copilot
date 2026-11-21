@@ -1,0 +1,107 @@
+canonical_skill,upGrad,Great Learning,Simplilearn,Scaler,Coursera,Emeritus
+AI Copilots,0,0,1,0,0,0
+AI Ethics and Transparency,0,0,1,0,0,0
+AI Governance,0,1,1,0,0,0
+AI Security,0,0,0,0,1,0
+AI Workflow Design,0,0,1,0,0,0
+Agent Orchestration,0,0,1,0,0,0
+Agentic AI,0,1,0,0,1,1
+Agentic AI Engineering,0,0,0,0,0,1
+Agentic AI Frameworks,0,0,1,0,0,0
+Ahp,0,0,0,0,0,1
+Ai Evaluation And Testing,0,1,0,0,0,0
+Ai Workflows,0,1,0,0,0,0
+Application Deployment,0,0,0,0,1,0
+Application Design,0,0,0,0,1,0
+Artificial Intelligence,0,0,0,0,0,1
+Auto Regressive Integrated Moving Average Models,0,0,0,0,0,1
+Automation,0,0,0,1,0,0
+Autonomous AI Systems,0,0,1,0,0,0
+Business Analytics,0,0,0,0,0,1
+Cloud Deployment,0,0,0,0,1,0
+Clustering,0,0,0,0,0,1
+Compliance and Security,0,0,1,0,0,0
+Computer Vision Skills,0,0,0,0,0,1
+Convolutional Neural Networks,0,0,0,0,0,1
+Core Data Foundations,0,0,0,1,0,0
+Core Ml Coding (Applied Ai-Ml),0,0,0,1,0,0
+Dashboard Design,0,0,0,0,0,1
+Data Analysis With Python: From Raw Data To Insights,0,0,0,0,1,0
+Data Preprocessing,0,0,0,0,1,0
+Data Science,0,0,0,0,0,1
+Data Visualization,0,0,0,0,0,1
+Deep Learning,1,0,0,0,0,1
+Deep Learning And Neural Network Proficiency,0,0,0,0,0,1
+Dematel,0,0,0,0,0,1
+Emotion Analysis,0,0,0,0,0,1
+Enterprise Compliance,0,0,1,0,0,0
+Evaluation and Monitoring,0,0,1,0,0,0
+Event-Driven Programming,0,0,0,0,1,0
+Excel Solver,0,0,0,0,0,1
+Execution,0,0,0,0,0,1
+Exploratory Data Analysis,0,0,0,0,1,0
+Fine Tuning,0,0,0,0,1,0
+Genai In Search Ecosystems,0,0,0,0,0,1
+Generative AI,1,0,0,0,1,1
+Generative Ai Essentials: From Fundamentals To Real-World Applications,0,0,0,0,1,0
+Generative Ai-Powered Applications With Python,0,0,0,0,1,0
+Generative Model Architectures,0,0,0,0,1,0
+Goal Programming,0,0,0,0,0,1
+Gradient Functions,0,0,0,0,0,1
+Graph Assisted Rankings,0,0,0,0,0,1
+Graph Theory,0,0,0,0,0,1
+Intelligent Automation,0,0,1,0,0,0
+Ism,0,0,0,0,0,1
+LLM Application Development,0,0,1,0,1,0
+LLM Architecture,0,0,0,0,0,1
+LLMOps,0,0,1,0,0,0
+Large Language Models,0,0,0,0,1,1
+Lda,0,0,0,0,0,1
+Linear Programming,0,0,0,0,0,1
+Long Short-Term Memory Networks,0,0,0,0,0,1
+Lsa,0,0,0,0,0,1
+Machine Learning,0,0,0,0,0,1
+Machine Learning Model Implementation,0,0,0,0,0,1
+Mathematics for Machine Learning,0,0,0,1,0,0
+Model Context Protocol,0,0,0,0,1,0
+Model Deployment,0,0,0,0,1,0
+Model Evaluation,0,0,0,0,1,1
+Model Selection,0,0,0,0,0,1
+Model Training,0,0,0,0,1,0
+Multi-Agent Systems,0,0,1,0,0,0
+Multi-Criteria & Strategic Decision Making,0,0,0,0,0,1
+Multi-Criteria Decision Making,0,0,0,0,0,1
+Natural Language Processing,1,0,0,0,0,1
+Network Science,0,0,0,0,0,1
+Nlp In Social Media Analytics,0,0,0,0,0,1
+No-Code Apps,0,0,0,1,0,0
+No-Code Automation,0,1,0,0,0,0
+Observability,0,0,1,0,0,0
+Planning,0,0,0,0,0,1
+Predictive Analytics,0,0,0,0,0,1
+Predictive Time Series Models,0,0,0,0,0,1
+Prescriptive Analytics,0,0,0,0,0,1
+Prompt Engineering,0,1,1,1,1,1
+Prompt Engineering For Generative Ai: Build Better Ai Prompts,0,0,0,0,1,0
+Python,0,0,0,0,0,1
+Python Programming,0,0,0,1,0,1
+Reliability Testing,0,0,0,0,0,1
+Responsible AI,0,0,0,0,1,0
+Retrieval-Augmented Generation,0,0,1,1,1,1
+Sensitivity Analysis,0,0,0,0,0,1
+Sentiment Analysis,0,0,0,0,0,1
+Statistical Analysis,0,0,0,0,0,1
+Supervised Learning,0,0,0,0,1,0
+Tableau,0,0,0,0,0,1
+Text Summarization,0,0,0,0,0,1
+Time Series Analysis,0,0,0,0,0,1
+Token Optimization,0,1,0,0,0,0
+Tool Chaining,0,1,0,0,0,0
+Tool Integration,0,0,1,0,0,0
+Topic Modeling,0,0,0,0,0,1
+Topsis,0,0,0,0,0,1
+Transformers,0,0,0,0,0,1
+Unit Testing,0,0,0,0,1,0
+Unsupervised Learning,0,0,0,0,1,0
+User Interface (Ui) Design,0,0,0,0,1,0
+Vector Databases,0,0,1,0,0,0

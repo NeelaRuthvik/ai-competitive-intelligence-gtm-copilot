@@ -1,0 +1,96 @@
+canonical_skill,skill_category,programme_count,competitor_count,coverage_percentage,coverage_category,opportunity_status,validation_status
+Application Deployment,AI Engineering,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Cloud Deployment,AI Engineering,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Evaluation and Monitoring,AI Engineering,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Intelligent Automation,AI Engineering,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+LLMOps,AI Engineering,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Model Deployment,AI Engineering,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Observability,AI Engineering,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Responsible AI,AI Governance,2,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+AI Ethics and Transparency,AI Governance,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+AI Security,AI Governance,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Compliance and Security,AI Governance,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Enterprise Compliance,AI Governance,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+AI Workflow Design,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Agentic AI Engineering,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Agentic AI Frameworks,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Autonomous AI Systems,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Model Context Protocol,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Multi-Agent Systems,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Tool Chaining,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Tool Integration,Agentic AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Business Analytics,Business Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Data Preprocessing,Data Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Data Visualization,Data Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Exploratory Data Analysis,Data Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Predictive Analytics,Data Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Statistical Analysis,Data Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Tableau,Data Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Time Series Analysis,Data Analytics,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Convolutional Neural Networks,Deep Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Long Short-Term Memory Networks,Deep Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Transformers,Deep Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+AI Copilots,Generative AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+LLM Architecture,Generative AI,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Clustering,Machine Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Machine Learning,Machine Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Machine Learning Model Implementation,Machine Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Model Selection,Machine Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Model Training,Machine Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Supervised Learning,Machine Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Unsupervised Learning,Machine Learning,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Graph Theory,Mathematical Foundations,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Linear Programming,Mathematical Foundations,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Mathematics for Machine Learning,Mathematical Foundations,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Emotion Analysis,NLP,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Sentiment Analysis,NLP,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Text Summarization,NLP,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Topic Modeling,NLP,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Fine Tuning,Other / Requires Review,2,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Agent Orchestration,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Ahp,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Ai Evaluation And Testing,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Ai Workflows,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Application Design,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Artificial Intelligence,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Auto Regressive Integrated Moving Average Models,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Automation,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Computer Vision Skills,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Core Data Foundations,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Core Ml Coding (Applied Ai-Ml),Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Dashboard Design,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Data Analysis With Python: From Raw Data To Insights,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Data Science,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Deep Learning And Neural Network Proficiency,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Dematel,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Event-Driven Programming,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Excel Solver,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Execution,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Genai In Search Ecosystems,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Generative Ai Essentials: From Fundamentals To Real-World Applications,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Generative Ai-Powered Applications With Python,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Generative Model Architectures,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Goal Programming,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Gradient Functions,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Graph Assisted Rankings,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Ism,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Lda,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Lsa,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Multi-Criteria & Strategic Decision Making,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Multi-Criteria Decision Making,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Network Science,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Nlp In Social Media Analytics,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+No-Code Apps,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+No-Code Automation,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Planning,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Predictive Time Series Models,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Prescriptive Analytics,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Prompt Engineering For Generative Ai: Build Better Ai Prompts,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Reliability Testing,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Sensitivity Analysis,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Token Optimization,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Topsis,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Unit Testing,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+User Interface (Ui) Design,Other / Requires Review,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Python,Programming,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation
+Vector Databases,RAG,1,1,16.67,Low observed coverage,Potential differentiation opportunity,Requires learner and employer demand validation

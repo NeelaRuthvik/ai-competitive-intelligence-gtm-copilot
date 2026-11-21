@@ -1,0 +1,138 @@
+competitor_id,program_id,program_name,standardized_skill,original_skill,canonical_skill,skill_category,processing_status
+1,1001,PG Programme in Machine Learning & AI (Executive),deep learning,deep learning,Deep Learning,Deep Learning,Accepted
+1,1001,PG Programme in Machine Learning & AI (Executive),generative ai,generative ai,Generative AI,Generative AI,Accepted
+1,1001,PG Programme in Machine Learning & AI (Executive),natural language processing,natural language processing,Natural Language Processing,NLP,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Ai Evaluation And Testing,Ai Evaluation And Testing,Ai Evaluation And Testing,Other / Requires Review,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Ai Workflows,Ai Workflows,Ai Workflows,Other / Requires Review,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,No-Code Automation,No-Code Automation,No-Code Automation,Other / Requires Review,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Token Optimization,Token Optimization,Token Optimization,Other / Requires Review,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,Tool Chaining,Tool Chaining,Tool Chaining,Agentic AI,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,agentic ai,agentic ai,Agentic AI,Agentic AI,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,ai governance,ai governance,AI Governance,AI Governance,Accepted
+2,1003,AI Automation Program: Build AI Agents & Workflows to Automate Daily Work,prompt engineering,prompt engineering,Prompt Engineering,Generative AI,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Applied Genai: Prompting,Applied Genai: Prompting,Prompt Engineering,Generative AI,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Automation,Automation,Automation,Other / Requires Review,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Core Data Foundations,Core Data Foundations,Core Data Foundations,Other / Requires Review,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Core Ml Coding (Applied Ai-Ml),Core Ml Coding (Applied Ai-Ml),Core Ml Coding (Applied Ai-Ml),Other / Requires Review,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Core Python Programming Fundamentals,Core Python Programming Fundamentals,Python Programming,Programming,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Foundations Core Maths For Ml,Foundations Core Maths For Ml,Mathematics for Machine Learning,Mathematical Foundations,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Math For Ml,Math For Ml,Mathematics for Machine Learning,Mathematical Foundations,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,No-Code Apps,No-Code Apps,No-Code Apps,Other / Requires Review,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,Python Fluency For Data And Ml,Python Fluency For Data And Ml,Python Programming,Programming,Accepted
+4,1004,AI & Machine Learning Course with Agentic AI,retrieval augmented generation,retrieval augmented generation,Retrieval-Augmented Generation,RAG,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Agentic Ai Models,Agentic Ai Models,Agentic AI,Agentic AI,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Ahp,Ahp,Ahp,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Auto Regressive Integrated Moving Average Models,Auto Regressive Integrated Moving Average Models,Auto Regressive Integrated Moving Average Models,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Clustering,Clustering,Clustering,Machine Learning,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Convoluted Neural Networks,Convoluted Neural Networks,Convolutional Neural Networks,Deep Learning,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Dematel,Dematel,Dematel,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Emotion Analysis,Emotion Analysis,Emotion Analysis,NLP,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Excel Solver,Excel Solver,Excel Solver,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Execution,Execution,Execution,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Genai In Search Ecosystems,Genai In Search Ecosystems,Genai In Search Ecosystems,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Goal Programming,Goal Programming,Goal Programming,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Gradient Functions,Gradient Functions,Gradient Functions,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Graph Assisted Rankings,Graph Assisted Rankings,Graph Assisted Rankings,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Graph Theory,Graph Theory,Graph Theory,Mathematical Foundations,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Ism,Ism,Ism,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Lda,Lda,Lda,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Linear Programming,Linear Programming,Linear Programming,Mathematical Foundations,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Lsa,Lsa,Lsa,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Lstm,Lstm,Long Short-Term Memory Networks,Deep Learning,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Multi-Criteria & Strategic Decision Making,Multi-Criteria & Strategic Decision Making,Multi-Criteria & Strategic Decision Making,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Multi-Criteria Decision Making,Multi-Criteria Decision Making,Multi-Criteria Decision Making,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Network Science,Network Science,Network Science,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Nlp In Social Media Analytics,Nlp In Social Media Analytics,Nlp In Social Media Analytics,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Planning,Planning,Planning,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Predictive Time Series Models,Predictive Time Series Models,Predictive Time Series Models,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Rag Workflows,Rag Workflows,Retrieval-Augmented Generation,RAG,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Sensitivity Analysis,Sensitivity Analysis,Sensitivity Analysis,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Sentiment Analysis,Sentiment Analysis,Sentiment Analysis,NLP,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Sentiment Mining,Sentiment Mining,Sentiment Analysis,NLP,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Tableau,Tableau,Tableau,Data Analytics,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Text Summarisation,Text Summarisation,Text Summarization,NLP,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Time Series Analysis,Time Series Analysis,Time Series Analysis,Data Analytics,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Topic Modeling,Topic Modeling,Topic Modeling,NLP,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Topic Modelling,Topic Modelling,Topic Modeling,NLP,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Topsis,Topsis,Topsis,Other / Requires Review,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",Transformers,Transformers,Transformers,Deep Learning,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",generative ai,generative ai,Generative AI,Generative AI,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",natural language processing,natural language processing,Natural Language Processing,NLP,Accepted
+6,1005,"Applied AI, ML & Decision Science Programme",python,python,Python,Programming,Accepted
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Computer Vision Skills,Computer Vision Skills,Computer Vision Skills,Other / Requires Review,Accepted
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Deep Learning And Neural Network Proficiency,Deep Learning And Neural Network Proficiency,Deep Learning And Neural Network Proficiency,Other / Requires Review,Accepted
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Generative Ai And Llms Expertise,Generative Ai And Llms Expertise,Large Language Models,Generative AI,Accepted
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Machine Learning Model Implementation,Machine Learning Model Implementation,Machine Learning Model Implementation,Machine Learning,Accepted
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Prompt Engineering And Rag Systems,Prompt Engineering And Rag Systems,Prompt Engineering,Generative AI,Accepted
+6,1006,Professional Certificate Programme in Generative AI and Machine Learning,Python Programming And Data Analysis,Python Programming And Data Analysis,Python Programming,Programming,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Artificial Intelligence,Artificial Intelligence,Artificial Intelligence,Other / Requires Review,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Business Analytics,Business Analytics,Business Analytics,Business Analytics,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Dashboard Design,Dashboard Design,Dashboard Design,Other / Requires Review,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Data Science,Data Science,Data Science,Other / Requires Review,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Data Visualization,Data Visualization,Data Visualization,Data Analytics,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Predictive Analytics,Predictive Analytics,Predictive Analytics,Data Analytics,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Prescriptive Analytics,Prescriptive Analytics,Prescriptive Analytics,Other / Requires Review,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,Statistical Analysis,Statistical Analysis,Statistical Analysis,Data Analytics,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,agentic ai,agentic ai,Agentic AI,Agentic AI,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,deep learning,deep learning,Deep Learning,Deep Learning,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,generative ai,generative ai,Generative AI,Generative AI,Accepted
+6,1007,IIMK Data Science and Artificial Intelligence Course,machine learning,machine learning,Machine Learning,Machine Learning,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Agentic Ai Engineering,Agentic Ai Engineering,Agentic AI Engineering,Agentic AI,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Llm Architecture,Llm Architecture,LLM Architecture,Generative AI,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Model Selection,Model Selection,Model Selection,Machine Learning,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Python For Ai Engineering,Python For Ai Engineering,Python Programming,Programming,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Rag Systems Engineering,Rag Systems Engineering,Retrieval-Augmented Generation,RAG,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,Reliability Testing,Reliability Testing,Reliability Testing,Other / Requires Review,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,model evaluation,model evaluation,Model Evaluation,Other / Requires Review,Accepted
+6,1010,Post Graduate Certificate in Agentic and RAG Systems for AI Engineering,prompt engineering,prompt engineering,Prompt Engineering,Generative AI,Accepted
+5,1011,Generative AI Development with Hugging Face,Ai Security,Ai Security,AI Security,AI Governance,Accepted
+5,1011,Generative AI Development with Hugging Face,Application Deployment,Application Deployment,Application Deployment,AI Engineering,Accepted
+5,1011,Generative AI Development with Hugging Face,Application Design,Application Design,Application Design,Other / Requires Review,Accepted
+5,1011,Generative AI Development with Hugging Face,Cloud Deployment,Cloud Deployment,Cloud Deployment,AI Engineering,Accepted
+5,1011,Generative AI Development with Hugging Face,Data Preprocessing,Data Preprocessing,Data Preprocessing,Data Analytics,Accepted
+5,1011,Generative AI Development with Hugging Face,Event-Driven Programming,Event-Driven Programming,Event-Driven Programming,Other / Requires Review,Accepted
+5,1011,Generative AI Development with Hugging Face,Large Language Modeling,Large Language Modeling,Large Language Models,Generative AI,Accepted
+5,1011,Generative AI Development with Hugging Face,Model Context Protocol,Model Context Protocol,Model Context Protocol,Agentic AI,Accepted
+5,1011,Generative AI Development with Hugging Face,Model Deployment,Model Deployment,Model Deployment,AI Engineering,Accepted
+5,1011,Generative AI Development with Hugging Face,Model Training,Model Training,Model Training,Machine Learning,Accepted
+5,1011,Generative AI Development with Hugging Face,User Interface (Ui) Design,User Interface (Ui) Design,User Interface (Ui) Design,Other / Requires Review,Accepted
+5,1011,Generative AI Development with Hugging Face,agentic ai,agentic ai,Agentic AI,Agentic AI,Accepted
+5,1011,Generative AI Development with Hugging Face,fine tuning,fine tuning,Fine Tuning,Other / Requires Review,Accepted
+5,1011,Generative AI Development with Hugging Face,generative ai,generative ai,Generative AI,Generative AI,Accepted
+5,1011,Generative AI Development with Hugging Face,model evaluation,model evaluation,Model Evaluation,Other / Requires Review,Accepted
+5,1011,Generative AI Development with Hugging Face,responsible ai,responsible ai,Responsible AI,AI Governance,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Data Analysis With Python: From Raw Data To Insights,Data Analysis With Python: From Raw Data To Insights,Data Analysis With Python: From Raw Data To Insights,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Exploratory Data Analysis,Exploratory Data Analysis,Exploratory Data Analysis,Data Analytics,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Ai Essentials: From Fundamentals To Real-World Applications,Generative Ai Essentials: From Fundamentals To Real-World Applications,Generative Ai Essentials: From Fundamentals To Real-World Applications,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Ai Retrieval-Augmented Generation,Generative Ai Retrieval-Augmented Generation,Retrieval-Augmented Generation,RAG,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Ai-Powered Applications With Python,Generative Ai-Powered Applications With Python,Generative Ai-Powered Applications With Python,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Generative Model Architectures,Generative Model Architectures,Generative Model Architectures,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Large Language Modeling,Large Language Modeling,Large Language Models,Generative AI,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Llm Application,Llm Application,LLM Application Development,Generative AI,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Prompt Engineering For Generative Ai: Build Better Ai Prompts,Prompt Engineering For Generative Ai: Build Better Ai Prompts,Prompt Engineering For Generative Ai: Build Better Ai Prompts,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Supervised Learning,Supervised Learning,Supervised Learning,Machine Learning,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Unit Testing,Unit Testing,Unit Testing,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,Unsupervised Learning,Unsupervised Learning,Unsupervised Learning,Machine Learning,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,fine tuning,fine tuning,Fine Tuning,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,model evaluation,model evaluation,Model Evaluation,Other / Requires Review,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,prompt engineering,prompt engineering,Prompt Engineering,Generative AI,Accepted
+5,1012,IBM Generative AI Engineering Professional Certificate,responsible ai,responsible ai,Responsible AI,AI Governance,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Agent Orchestration,Agent Orchestration,Agent Orchestration,Other / Requires Review,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Agentic Ai Frameworks,Agentic Ai Frameworks,Agentic AI Frameworks,Agentic AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Ai Copilots,Ai Copilots,AI Copilots,Generative AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Ai Workflow Design,Ai Workflow Design,AI Workflow Design,Agentic AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Autonomous Ai Systems,Autonomous Ai Systems,Autonomous AI Systems,Agentic AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Compliance And Security,Compliance And Security,Compliance and Security,AI Governance,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Enterprise Compliance,Enterprise Compliance,Enterprise Compliance,AI Governance,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Ethics And Transparency,Ethics And Transparency,AI Ethics and Transparency,AI Governance,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Evaluation And Monitoring,Evaluation And Monitoring,Evaluation and Monitoring,AI Engineering,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Intelligent Automation,Intelligent Automation,Intelligent Automation,AI Engineering,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Llm Application Development,Llm Application Development,LLM Application Development,Generative AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Llmops,Llmops,LLMOps,AI Engineering,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Multiagent Systems,Multiagent Systems,Multi-Agent Systems,Agentic AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Observability,Observability,Observability,AI Engineering,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Tool Integration,Tool Integration,Tool Integration,Agentic AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,Vector Databases,Vector Databases,Vector Databases,RAG,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,ai governance,ai governance,AI Governance,AI Governance,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,prompt engineering,prompt engineering,Prompt Engineering,Generative AI,Accepted
+3,1013,Advanced Executive Program In Applied Generative AI,retrieval augmented generation,retrieval augmented generation,Retrieval-Augmented Generation,RAG,Accepted
