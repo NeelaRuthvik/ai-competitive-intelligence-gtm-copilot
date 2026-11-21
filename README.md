@@ -35,7 +35,7 @@ A research-backed prototype that benchmarks AI/ML education programmes from publ
 
 ## Dashboard preview
 
-Save your screenshots in `docs/images/` using the names below.
+Screenshots live in `docs/images/` (the GTM Strategy tab is covered by the linked report instead).
 
 ### Overview
 ![Overview](docs/images/01-overview.png)
@@ -58,8 +58,11 @@ Skill-by-competitor heatmap showing who teaches what.
 Low-coverage skills filtered by a maximum coverage threshold, with a validation status for each lead.
 
 ### GTM Strategy
-![GTM Strategy](docs/images/06-gtm-strategy.png)
-Generated strategy: executive interpretation, programme opportunities, programme design, learner segments, pricing framework, pilot, KPIs and risks.
+The generated strategy report is a Markdown file, so it is linked instead of shown as a screenshot:
+
+**[Read the full GTM Strategy V3 report](reports/gtm_recommendations_v3.md)**
+
+It covers the dataset overview, competitor benchmarking, skill and category analysis, low-coverage skill leads, executive interpretation, programme opportunities, a recommended programme design, learner segment hypotheses, a pricing research framework, a 6-week GTM pilot, KPIs, and a risk and validation plan.
 
 ### GTM Copilot
 ![GTM Copilot](docs/images/07-gtm-copilot.png)
